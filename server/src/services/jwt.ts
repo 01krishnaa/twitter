@@ -1,5 +1,4 @@
 import { User } from "@prisma/client";
-import { prisma } from "../client/db";
 import jwt from "jsonwebtoken";
 
 const SECRET_KEY = `Admin@123`;
